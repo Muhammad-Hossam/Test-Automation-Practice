@@ -1,0 +1,14 @@
+{
+
+  "baseUrl": "https://www.saucedemo.com/v1/index.html",
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "invalid_username": "standard_user",
+  "invalid_password": "wrong_password",
+  "firstname": "owl",
+  "lastname": "kid",
+  "postcode": "12345"
+
+}
+
+
