@@ -5,7 +5,7 @@ with integrated **logs** and **screenshots**.
 
 It includes:
 - **core (TAF)** → reusable Test Automation Framework  
-- **sauce-demo** → demo e-commerce project that uses the core
+- **sauce-demo** → demo e-commerce "Test Automation project" that uses the core
 
 ---
 
@@ -17,7 +17,7 @@ Test-Automation-Practice/
 ├── sauce-demo/    # Demo e-commerce test project using the core
 │   ├── src/test/  # Test cases and page objects
 │   ├── logs/      # Logs for each test run
-│   ├── screenshots/ # Screenshots captured on failure
+│   ├── screenshots/ # Screenshots 
 │   └── allure-results/ # Allure test results
 └── README.md
 ```
