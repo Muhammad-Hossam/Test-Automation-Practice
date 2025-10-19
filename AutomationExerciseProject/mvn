@@ -1,0 +1,32 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:TAF:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: io.rest-assured:rest-assured:jar -> duplicate declaration of version 5.5.6 @ line 192, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Progress (1): 806 BProgress (1): 3.6 kBProgress (1): 5.5 kBProgress (1): 8.3 kBProgress (1): 9.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom (9.8 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Progress (1): 803 BProgress (1): 1.9 kBProgress (1): 3.7 kBProgress (1): 9.5 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom (11 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Progress (1): 0.9/61 kBProgress (1): 2.3/61 kBProgress (1): 3.6/61 kBProgress (1): 3.7/61 kBProgress (1): 5.1/61 kBProgress (1): 6.5/61 kBProgress (1): 7.8/61 kBProgress (1): 9.2/61 kBProgress (1): 11/61 kB Progress (1): 12/61 kBProgress (1): 13/61 kBProgress (1): 15/61 kBProgress (1): 16/61 kBProgress (1): 17/61 kBProgress (1): 19/61 kBProgress (1): 20/61 kBProgress (1): 22/61 kBProgress (1): 23/61 kBProgress (1): 24/61 kBProgress (1): 26/61 kBProgress (1): 27/61 kBProgress (1): 28/61 kBProgress (1): 30/61 kBProgress (1): 31/61 kBProgress (1): 32/61 kBProgress (1): 34/61 kBProgress (1): 35/61 kBProgress (1): 37/61 kBProgress (1): 38/61 kBProgress (1): 39/61 kBProgress (1): 41/61 kBProgress (1): 42/61 kBProgress (1): 43/61 kBProgress (1): 48/61 kBProgress (1): 52/61 kBProgress (1): 56/61 kBProgress (1): 60/61 kBProgress (1): 61 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar (61 kB at 445 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 3.1 kBProgress (1): 8.0 kBProgress (1): 13 kB Progress (1): 17 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 165 kB/s)
+Progress (1): 4.6 kBProgress (1): 9.7 kBProgress (1): 14 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 66 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.868 s
+[INFO] Finished at: 2025-10-17T15:41:51+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'C' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\Maka\.m2\repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException

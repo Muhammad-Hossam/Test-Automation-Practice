@@ -1,0 +1,34 @@
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.FileUtils] - File deleted: C:\Users\Maka\Desktop\ITI\selenuim\Selenuim\AutomationExerciseProject\test-output\Logs
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.listeners.TestNGListeners] - Test output directories cleaned
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.FileUtils] - Directory created: src/test/resources/downloads
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.listeners.TestNGListeners] - Test output directories created
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - 19-10-2025 15:49:17 [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment info set successfully
+[INFO] - 19-10-2025 15:49:27 [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure zip extracted successfully to: C:\Users\Maka\.m2\repository\allure
+[INFO] - 19-10-2025 15:49:27 [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries downloaded and extracted successfully
+[INFO] - 19-10-2025 15:49:27 [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment info set
+[INFO] - 19-10-2025 15:49:28 [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - 19-10-2025 15:49:33 [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - 19-10-2025 15:49:33 [main] [com.automationexercices.listeners.TestNGListeners] - addProductToCartWithoutLogin  About to execute 
+[INFO] - 19-10-2025 15:49:33 [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - 19-10-2025 15:49:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - 19-10-2025 15:49:34 [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - 19-10-2025 15:49:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['cartAdded']
+[INFO] - 19-10-2025 15:49:34 [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - 19-10-2025 15:49:34 [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: .modal-body>p
+[INFO] - 19-10-2025 15:49:34 [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Your product has been added to cart.By.cssSelector: .modal-body>p
+[INFO] - 19-10-2025 15:49:34 [main] [com.automationexercices.pages.ProductsPage] - Actual product added message: Your product has been added to cart.
+[INFO] - 19-10-2025 15:49:34 [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - 19-10-2025 15:49:35 [main] [com.automationexercices.listeners.TestNGListeners] - addProductToCartWithoutLogin passed
+[INFO] - 19-10-2025 15:49:35 [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - 19-10-2025 15:49:38 [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - 19-10-2025 15:49:38 [main] [com.automationexercices.listeners.TestNGListeners] - searchForProduct  About to execute 
+[INFO] - 19-10-2025 15:49:39 [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - 19-10-2025 15:49:39 [main] [com.automationexercices.utils.Actions.ElementActions] - Typed '{}' into element: {} Blue TopBy.id: search_product
+[INFO] - 19-10-2025 15:49:40 [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element: {}By.cssSelector: .container >button
+[INFO] - 19-10-2025 15:49:41 [main] [com.automationexercices.utils.Actions.ElementActions] - Hovered on element:By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center']/p[.='Blue Top']
+[INFO] - 19-10-2025 15:49:42 [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Blue TopBy.xpath: //div[@class='features_items'] //div[@class='overlay-content']/p[.='Blue Top']
+[INFO] - 19-10-2025 15:49:42 [main] [com.automationexercices.utils.Actions.ElementActions] - Retrieved text ' from element:  Rs. 500By.xpath: //div[@class='features_items'] //div[@class='overlay-content']/p[.='Blue Top']//preceding-sibling::h2
+[INFO] - 19-10-2025 15:49:42 [main] [com.automationexercices.pages.ProductsPage] - Actual product name: Blue Top with price: Rs. 500
+[INFO] - 19-10-2025 15:49:42 [main] [com.automationexercices.media.ScreenshotsManager] - Capturing screenshot successfully

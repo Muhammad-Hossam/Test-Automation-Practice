@@ -1,0 +1,41 @@
+{
+  "name": "owl_checkout",
+  "email": "owlcheckout_",
+  "password": "P@ssw0rd",
+  "genderMale": "Mr",
+  "genderFemale": "Mrs",
+  "day":"9",
+  "month":"September",
+  "year":"1990",
+  "firstName": "Automation_Firstname",
+  "lastName": "Automation_Lastname",
+  "company": "ItI",
+  "address1": "Automation_address1",
+  "address2": "Automation_address2",
+  "country": "United States",
+  "city": "Atalanta",
+  "state": "Georgia",
+  "zipcode": "2222",
+  "mobileNumber": "123456789",
+  "product":
+  {
+    "name":"Men Tshirt",
+    "price":"Rs. 400",
+    "quantity":"1",
+    "total":"Rs. 400"
+  }
+  ,
+  "message":
+  {
+    "cartAdded":"Your product has been added to cart.",
+    "successMessage": "Congratulations! Your order has been confirmed!"
+  },
+  "card": {
+    "nameOnCard": "Muhammad",
+    "cardNumber": "4242424242424242",
+    "cvc": "123",
+    "expirationMonth": "12",
+    "expirationYear": "2035"
+  },
+  "invoiceName": "invoice.txt"
+}

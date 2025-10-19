@@ -1,0 +1,11 @@
+{
+  "name": "owl kiddo",
+  "email": "owltest_",
+  "password": "P@ssw0rd",
+  "firstName": "owl",
+  "lastName": "kiddo",
+  "messages":
+  {
+    "error":"Your email or password is incorrect!"
+  }
+}

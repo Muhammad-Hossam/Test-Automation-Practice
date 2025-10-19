@@ -1,0 +1,75 @@
+name: E2E Pipeline
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: '0 3 20 * *'
+  workflow_dispatch:
+
+env:
+  TARGET: "%regex[.*Tests.*],com.automationexercices.tests.**.**,com.automationexercices.tests.**"
+
+
+
+jobs:
+  Chrome_Linux:
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+    steps:
+        - name : Checkout code
+          uses: actions/checkout@v5
+
+        - name: Set up java
+          uses: actions/setup-java@v5
+          with:
+              distribution: 'zulu' # See 'Supported distributions' for available options
+              java-version: '21'
+        - name: Setup Maven
+          uses: s4u/setup-maven-action@< version >
+          with:
+            maven-version: '3.9.11'
+
+        - name: Running Tests
+          continue-on-error: true
+          run : mvn test -Dtest="${TARGET}" -DexecutionType="localHeadless" -DbrowserType="chrome" clean test
+
+        - name: Upload Test Report
+          uses: actions/upload-artifact@v4
+          with:
+            name: Test-Report-Chrome-Linux
+            path: "test-output/allure-report/*.html"
+
+
+  Edge_Windows:
+    runs-on: windows-latest
+    permissions:
+      checks: write
+    steps:
+      - name : Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'zulu' # See 'Supported distributions' for available options
+          java-version: '21'
+      - name: Setup Maven
+        uses: s4u/setup-maven-action@< version >
+        with:
+          maven-version: '3.9.11'
+
+      - name: Running Tests
+        continue-on-error: true
+        run : mvn test -Dtest="${TARGET}" -DexecutionType="localHeadless" -DbrowserType="edge" clean test
+
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Report-Edge-Windows
+          path: "test-output/allure-report/*.html"
