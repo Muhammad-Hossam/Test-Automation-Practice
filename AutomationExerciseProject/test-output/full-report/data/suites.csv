@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Search for a product and validate its details","4411","searchForProduct","Default Suite","2025-10-19","passed","2025-10-19","com.automationexercices.tests.ui.ProductsTest","AutomationExerciseProject","com.automationexercices.tests.ui.ProductsTest","searchForProduct"
-"Add a product to the cart ","1581","addProductToCartWithoutLogin","Default Suite","2025-10-19","passed","2025-10-19","com.automationexercices.tests.ui.ProductsTest","AutomationExerciseProject","com.automationexercices.tests.ui.ProductsTest","addProductToCartWithoutLogin"
